@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Wolves Login Form</title>
+	<link rel="stylesheet" href="login_form.css">
+</head>	
+
+<body>
+
+<h1>Login Form</h1>
+
+<h2>You must be a true Wolf to enter</h2>
+
+<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="wolf.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>True Wolf name</b></label>
+    <input type="text" placeholder="Enter Wolf Name" name="uname" required>
+
+    <label><b>Wolfword</b></label>
+    <input type="password" placeholder="Enter Wolfword" name="psw" required>
+        
+    <button type="submit">Log it the hell in</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
